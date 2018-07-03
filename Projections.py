@@ -215,7 +215,7 @@ butt=widgets.Button(description='Run')
 
 ts=widgets.IntSlider(value=30,min=2,max=50,step=1,description='Years', disabled=False,continuous_update=False,orientation='horizontal',readout=True,readout_format='d')
 
-showall=widgets.Checkbox(value=False,description='No Gas & Residential')
+showall=widgets.Checkbox(value=False,description='Commercial Electricity Only')
 
 def plot_on_click(b):
     clear_output()
